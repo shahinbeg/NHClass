@@ -44,7 +44,7 @@ class MainActivity : AppCompatActivity() {
 
         val f1 = FoodModel(1, "Orange", "https://homepages.cae.wisc.edu/~ece533/images/airplane.png", 1800)
         db.foodDao().insert(f1)
-        val f2 = FoodModel(2, "Apple", "https://homepages.cae.wisc.edu/~ece533/images/arctichare.png", 1200)
+        val f2 = FoodModel(2, "Mango", "https://homepages.cae.wisc.edu/~ece533/images/arctichare.png", 1200)
         db.foodDao().insert(f2)
         val f3 = FoodModel(3, "Banana", "https://homepages.cae.wisc.edu/~ece533/images/baboon.png", 2800)
         db.foodDao().insert(f3)
